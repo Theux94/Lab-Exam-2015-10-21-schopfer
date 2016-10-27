@@ -30,8 +30,8 @@ public class Email extends Entity
 		
 	}
 	
-	private String getAddress() {
-		// TODO Auto-generated method stub
+	public String getAddress() {
+	
 		return this.address;
 	}
 
@@ -42,6 +42,18 @@ public class Email extends Entity
 	public String toString()
 	{
 		return getId() + "," + getAddress();
+	}
+
+
+
+	public void setOwner(Person person) {
+		this.owner = person;
+		
+	}
+	
+	public Person getOwner() {
+		return this.owner;
+		
 	}
 
 
