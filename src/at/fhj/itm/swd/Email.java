@@ -1,27 +1,51 @@
 package at.fhj.itm.swd;
 
-public class Email
-	extends Entity
+public class Email extends Entity
+
+
 {
+	private String address;
+	private Person owner;
+	
 	/*
 	 * Constructor
 	 */
-	public Email(long id, String address)
-	{
+	public Email(long id, String address) {
 		setId(id);
-		setAddress(address);
+		if (address == null) {
+			throw new IllegalArgumentException();
+		} else {
+			setAddress(address);
+		}
 	}
 	
-		
 	
 	
 	/*
 	 * Object methods
 	 */
 	
+	private void setAddress(String address) {
+		this.address=address;
+		
+	}
+	
+	private String getAddress() {
+		// TODO Auto-generated method stub
+		return this.address;
+	}
+
+
+
+
 	@Override
 	public String toString()
 	{
 		return getId() + "," + getAddress();
 	}
+
+
+
+
+
 }
