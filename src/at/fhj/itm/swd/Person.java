@@ -35,6 +35,7 @@ public class Person
 	 * Property: lastName
 	 */
 	private String lastName;
+	private List<Email> emails = new ArrayList<Email>();
 	public String getLastName()
 	{
 		return lastName;
@@ -56,5 +57,14 @@ public class Person
 	public String toString()
 	{
 		return getId() + "," + getFirstName() + "," + getLastName() + "," + getEmails();
-	}	
+	}
+	
+	public void addEmail(Email m) {
+		this.emails.add(m);
+	}
+
+	public List<Email> getEmails() {
+		return this.emails;
+	}
+
 }
