@@ -1,0 +1,40 @@
+TODO: Lab Exam
+-----------------------------------------------------------
+
+0. Project Name
+	Nennen Sie das Projekt (und das abgegebene ZIP File) so
+	um, dass statt "MyName" Ihr Name verwendet wird.
+	
+	Beachten Sie, dass Projekte die nicht der Namenskonvention
+	entsprechen negativ (= 0 Punkte) beurteilt werden!
+
+
+1. UML-to-Java Mapping [10 Punkte]
+
+	Implementieren Sie das gegeben Class Diagram, indem Sie
+	die fehlenden Code-Teile ergänzen.
+
+	Sie können die gegebene Klasse "PersonTest" verwenden, um 
+	Ihre Implementierung zu testen.	
+	
+	Viel Spaß!
+	
+***********
+* ENGLISH *
+***********
+
+0. Project name
+	rename the project (and the zip file) in such a way that
+	"MyName" is replaced by your surname prior to submission.
+	
+	Please note, that if the submitted project does not comply the
+	above stated naming conventions, it will not be accepted and
+	rated negative.
+
+1. UML-to-Java mapping [10 points]
+
+	Implement the given class diagram and add the missing code.
+	
+	Test your the given test class "PersonTest" to verify your implementation.
+	
+	Have fun! 
